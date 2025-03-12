@@ -1,0 +1,46 @@
+body{
+    background-image: url(/img/imagem_kamai.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-color: black;
+ 
+}
+nav{
+    background-color: transparent; 
+
+
+    display: flex;
+    color: black;
+    font-size: xx-large;
+    flex-wrap: wrap;
+    margin-top: 0;
+    justify-content: flex-end;
+}
+
+ul{
+    background-color: rgb(215, 218, 69);
+
+    /* background-color: antiquewhite; */
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    border-radius: 40px;
+    width: 40%;
+}
+ul li{
+    background-color: transparent;
+    padding: 5px;
+    /* text-align: center; */
+    border-radius: 10px;    
+}
+div{
+    width: 20%;
+    margin-top: 400px;
+}
+
+div img{
+    height: 50% ;
+}
