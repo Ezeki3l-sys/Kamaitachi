@@ -6,7 +6,7 @@
 body{
     background-image: url(/img/imagem_kamai.jpg);
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: right ;
     background-color: black;
     border: 10px;
     border-radius: 25px;
@@ -17,7 +17,6 @@ body{
 
 nav{
     background-color: transparent; 
-
 
     display: flex;
     color: black;
@@ -49,6 +48,7 @@ ul li{
     /* text-align: center; */
     border-radius: 10px;    
 }
+li:hover, li:active {font-size: 150%;}
 div{
     width: 40%; 
     height: 60%;
@@ -63,7 +63,7 @@ div{
     animation-iteration-count: infinite;
     animation-delay: 4s;
     border: 10px;
-    border-radius: 0px 25px 0px 10px;
+    border-radius: 10px 25px 10px 20px;
     border-color: azure;
     border-style: solid;
 }
