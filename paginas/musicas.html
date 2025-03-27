@@ -5,39 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Músicas</title>
     <style>
-           body{
-            background-color: rgb(0, 0, 0);
+        body{
+            background-image: url(/img/imagem_kamai.jpg);
+            background-repeat: no-repeat;
+            background-position: top ; 
+            background-color: black;
+            border: 10px;
+            border-radius: 25px;
+            border-color: azure ;
+            border-style: solid;
+
         }
+        nav{
+            background-color: transparent; 
+            display: flex;
+            color: black;
+            font-size: xx-large;
+            flex-wrap: wrap;
+            margin-top: 0;
+            justify-content: flex-end;
+        }
+
+        ul{
+            background-color: azure;
+            font-family: "Barrio-static";
+            /* background-color: antiquewhite; */
+            list-style: none;
+            display: flex;
+            gap: 10px;
+            margin: 0;
+            padding: 0;
+            justify-content: space-around;
+            /*border-radius: 25px;*/
+            border-radius: 0px 0px 0px 25px; 
+            width: 40%;
+        }
+        ul li{
+            background-color: transparent;
+            padding: 5px;
+            /* text-align: center; */
+            border-radius: 10px;    
+        }
+        li:hover, li:active {font-size: 150%;}
         .avo{
             display: flex;
 
-            justify-content: space-between;
+            justify-content: space-evenly;
         }
         .avo .pais{
             display: flex;
             flex-direction: column;
             width: 30%;
         }
-        .avo .pais{
-            background-color: rgb(234, 234, 234);
+        /* .avo .pais{
+            background-color: rgb(0, 0, 0);
+        } */
+        .avo .pais section{
+            display:flex;
+            flex-direction: column;
         }
         .avo .pais h2{
             display: inline-block;
-            position: relative;
+            /* position: relative;
             top: -100px;
-            left: -150px;
+            left: -150px; */
+            color: #ffff00;
         }
         .avo .pais h3{
             display: inline-block;
-            position: relative;
-            top: -110px;
-            left: 170px;
+            /* position: relative;
+            top: -70px;
+            left: -180px; */
+            color:aliceblue
         }
 
 
     </style>
 </head>
 <body>
+    <nav>
+        <ul>
+                <li><a href="./paginas/musicas.html" target="_blank" >pili</a></li>
+                <li>pici</li>
+                <li>pola</li>
+                <li>dini</li>
+        </ul> 
+        </nav>
     <section class="avo">
         <article class="pais um">
             <section>
@@ -45,27 +98,51 @@
                 <h2>Música 1</h2>
                 <h3>Local XPTO ABC</h3>
             </section>
-            <section>2</section>
-            <section>3</section>
+            <section>
+                <img src="https://placehold.co/300x200?text=M%C3%BAsica1" >
+                <h2>Música 1</h2>
+                <h3>Local XPTO ABC</h3>
+            </section>
+            <section>
+                <img src="https://placehold.co/300x200?text=M%C3%BAsica1" >
+                <h2>Música 1</h2>
+                <h3>Local XPTO ABC</h3>
+            </section>
         </article >
         <article class="pais dois">
             <section>
                 <img src="https://placehold.co/300x200?text=M%C3%BAsica2" >
+                <h2>Música 2</h2>
+                <h3>Local XPTO ABC</h3>
             </section>
-            <section>b</section>
-            <section>c</section>
+            <section>
+                <img src="https://placehold.co/300x200?text=M%C3%BAsica2" >
+                <h2>Música 2</h2>
+                <h3>Local XPTO ABC</h3>
+            </section>
+            <section>
+                <img src="https://placehold.co/300x200?text=M%C3%BAsica2" >
+                <h2>Música 2</h2>
+                <h3>Local XPTO ABC</h3>
+            </section>
         </article >
         <article class="pais tres">
             <section>
                 <img src="https://placehold.co/300x200?text=M%C3%BAsica3" >
+                <h2>Música 3</h2>
+                <h3>Local XPTO ABC</h3>
             </section>
-            <section>¨*</section>
-            <section>¨&</section>
+            <section>
+                <img src="https://placehold.co/300x200?text=M%C3%BAsica3" >
+                <h2>Música 3</h2>
+                <h3>Local XPTO ABC</h3>
+            </section>
+            <section>
+                <img src="https://placehold.co/300x200?text=M%C3%BAsica3" >
+                <h2>Música 3</h2>
+                <h3>Local XPTO ABC</h3>
+            </section>
         </article>
     </section>
-    
-    
-
-
 </body>
 </html>
