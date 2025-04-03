@@ -6,7 +6,7 @@ html{
     font-family: Barrio-static;
 }
 body{
-    background-image: url(/img/imagem_kamai.jpg);
+    background-image: url(../img/imagem_kamai.jpg);
     background-repeat: no-repeat;
     background-position: right ;
     background-color: black;
@@ -66,7 +66,7 @@ header{
 div{
     width: 40%; 
     height: 60%;
-    background-image: url(/img/O_limbo_do_menino.avif);
+    background-image: url(../img/O_limbo_do_menino.avif);
     background-size: cover;
     position: absolute;
     bottom: 10px;
@@ -82,15 +82,15 @@ div{
     border-style: solid;
 }
 @keyframes musicas{
-    0% {background-image: url(/img/O_limbo_do_menino.avif); background-repeat: no-repeat;} 
-    10% {background-image: url(/img/O_treco.avif);}
-    20% {background-image: url(/img/Oxóssi.avif); background-repeat: no-repeat;}
-    30% {background-image: url(/img/6balas.avif); background-repeat: no-repeat}
-    40% {background-image: url(/img/Bob.avif); background-repeat: no-repeat ;}
-    50% {background-image: url(/img/Morgana.avif); background-repeat: no-repeat;}
-    60% {background-image: url(/img/Lua_e_Sol.avif); background-repeat: no-repeat;}
-    70% {background-image: url(/img/Jhonny.avif); background-repeat: no-repeat;}
-    80% {background-image: url(/img/Lana.avif); background-repeat: no-repeat;}
-    90% {background-image: url(/img/Chamas.avif); background-repeat: no-repeat;}
-    100% {background-image: url(/img/O_limbo_do_menino.avif);}
+    0% {background-image: url(../img/O_limbo_do_menino.avif); background-repeat: no-repeat;} 
+    10% {background-image: url(../img/O_treco.avif);}
+    20% {background-image: url(../img/Oxóssi.avif); background-repeat: no-repeat;}
+    30% {background-image: url(../img/6balas.avif); background-repeat: no-repeat}
+    40% {background-image: url(../img/Bob.avif); background-repeat: no-repeat ;}
+    50% {background-image: url(../img/Morgana.avif); background-repeat: no-repeat;}
+    60% {background-image: url(../img/Lua_e_Sol.avif); background-repeat: no-repeat;}
+    70% {background-image: url(../img/Jhonny.avif); background-repeat: no-repeat;}
+    80% {background-image: url(../img/Lana.avif); background-repeat: no-repeat;}
+    90% {background-image: url(../img/Chamas.avif); background-repeat: no-repeat;}
+    100% {background-image: url(../img/O_limbo_do_menino.avif);}
 }
